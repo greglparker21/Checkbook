@@ -11,7 +11,7 @@ def main(argv=None):
    oldtranslocation = cwd + '/Data/transactions_Checking_02-14-2015.csv'
    newtranslocation = cwd + '/Data/Workbook1.csv'
    nt = newTransactions('MyCheckBookTransactions')
-   nt.convertToTrueCSV(oldtranslocation,newtranslocation)
+   #nt.convertToTrueCSV(oldtranslocation,newtranslocation)
    nt.getNewTransactions(newtranslocation)
 
 
