@@ -15,8 +15,7 @@ def main(argv=None):
    newtranslocation = cwd + '/Data/Workbook1.csv'
 
    nt = newTransactions('MyCheckBookTransactions')
-   #nt.convertToMacCSV(oldtranslocation,newtranslocation)
-   nt.getNewTransactions(newtranslocation)
+   nt.convertToMacCSV(oldtranslocation,newtranslocation)
 
 if __name__ == "__main__":
     sys.exit(main())
