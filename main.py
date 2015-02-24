@@ -10,12 +10,14 @@ import string
 
 def main(argv=None):
    cwd = os.getcwd()
-   # will eventually pass this in from the command line
+   # will eventually get these from a drop folder.
    oldtranslocation = cwd + '/Data/transactions_Checking_02-14-2015.csv'
    newtranslocation = cwd + '/Data/Workbook1.csv'
 
    nt = newTransactions('MyCheckBookTransactions')
-   nt.convertToMacCSV(oldtranslocation,newtranslocation)
+   #nt.convertToMacCSV(oldtranslocation,newtranslocation)
+   #nt.getNewTransactions(newtranslocation)
+
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -5,6 +5,7 @@
 '''
 # import Namespaces
 import sys
+import xlwt
 import xlrd
 import string
 
@@ -41,6 +42,6 @@ class newTransactions():
         self.transactions = values_dict
         fi.close()
 
-    def updateMainSpreadSheet(self):
+    #def updateMainSpreadSheet(self):
 
 
